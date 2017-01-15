@@ -96,8 +96,59 @@ font-family: 'Rye', cursive;
 font-family: 'Mystery Quest', cursive;
 }
         </style>
+	<style>
+		<style>
+/*The color of the bar with the dropdown on it.*/
+div {background-color: rgba(0, 0, 0, 0);}
+div a {
+    text-decoration: none;
+    /* color for the text */
+    color: aqua;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+    font-family: 'Armata', cursive;
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+a.dank:hover {background: blue;}
+}
+ul li {display: inline-block;}
+ul li:hover {background: blue;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+/* color on the inside of the dropdown */
+  background: blue; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+/*hover the buttons inside the dropdown */
+ul li ul li:hover {background: purple;}
+		</style>
 	</head>
 	<body>
+		<div>
+   <a class="dank" href="/start">Start</a>
+		<a class="dank" href="/index">Home</a>
+	  <a class="dank" href="/about">About</a>
+	  <!--<a href="/privacypolicy">Privacy Policy</a>-->
+  <ul>
+    <li>
+    <a href="#">Credits</a>
+      <ul>
+        <li><a href="https://www.twitter.com/fazemelonking">FaZeMelonKing (OWNER)</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
 		<iframe width="0" height="0" src="https://www.youtube.com/embed/L97A3VrEkDg?autoplay=1" frameborder="0" allowfullscreen></iframe>
 		<center>
 			<h1 class="Armata">About us</h1>
