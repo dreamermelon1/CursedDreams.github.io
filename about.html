@@ -24,25 +24,67 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/images3/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-             <style>
+        <style>
+/*The color of the bar with the dropdown on it.*/
+div {background-color: rgba(0, 0, 0, 0);}
+div a {
+    text-decoration: none;
+    /* color for the text */
+    color: aqua;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+    font-family: 'Ewert', cursive;
+}
 		body {
-		background-image: url("https://curseddreams.github.io/images/nightsky.jpg")
+			cursor: crosshair;
 		}
-		     body {
-			     cursor: crosshair;
-		     }
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: blue;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+/* color on the inside of the dropdown */
+  background: blue; 
+  display: block; 
+}
+a.dank:hover {background: blue;}
+ul li ul li a {display:block !important;} 
+/*hover the buttons inside the dropdown */
+ul li ul li:hover {background: purple;}
+</style>
+		<!--The background image. NOT FOR ANYTHING ELSE! -->
+		<style>
+		body {
+		background-image: url("https://media.giphy.com/media/rXHKRU96pSJNe/giphy.gif")
+		}
         .Armata {
         color: Aqua;
         }
         .Passion {
         color: Red;
         }
+		.PM {
+		color: rgba(100,13,140,9);
+		}
 		</style>
 		<!-- The fonts go here as well. -->
 		<style>
         h1.Kumar {
 		font-family: 'Kumar One', cursive;
 		font-size: 400%;
+		}
+		h1.PM {
+		font-family: 'Permanent Marker', cursive;
 		}
 		h4.Passion {
 		font-family: 'Passion One', cursive;
@@ -73,6 +115,7 @@ font-family: 'Leckerli One', cursive;
 }
 .Swanky {
 font-family: 'Fontdiner Swanky', cursive;
+color: rgba(46,4742,185,65);
 }
 .Cabin {
 font-family: 'Cabin Sketch', cursive;
@@ -97,46 +140,16 @@ font-family: 'Rye', cursive;
 }
 .Mystery {
 font-family: 'Mystery Quest', cursive;
+color: rgba(88,143,4684,9);
+}
+.Spank {
+color: blue;
 }
         </style>
-	<style>
-/*The color of the bar with the dropdown on it.*/
-div {background-color: rgba(0, 0, 0, 0);}
-div a {
-    text-decoration: none;
-    /* color for the text */
-    color: aqua;
-    font-size: 20px;
-    padding: 15px;
-    display:inline-block;
-    font-family: 'Armata', cursive;
-}
-ul {
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-a.dank:hover {background: blue;}
-ul li {display: inline-block;}
-ul li:hover {background: blue;}
-ul li:hover ul {display: block;}
-ul li ul {
-  position: absolute;
-  width: 200px;
-  display: none;
-}
-ul li ul li { 
-/* color on the inside of the dropdown */
-  background: blue; 
-  display: block; 
-}
-ul li ul li a {display:block !important;} 
-/*hover the buttons inside the dropdown */
-ul li ul li:hover {background: purple;}
-		</style>
 	</head>
 	<body>
-		<div>
+		<iframe width="0" height="0" src="https://www.youtube.com/embed/L97A3VrEkDg?autoplay=1" frameborder="0" allowfullscreen></iframe>
+        <div>
    <a class="dank" href="/start">Start</a>
 		<a class="dank" href="/index">Home</a>
 	  <a class="dank" href="/about">About</a>
@@ -150,17 +163,26 @@ ul li ul li:hover {background: purple;}
     </li>
   </ul>
 </div>
-		<iframe width="0" height="0" src="https://www.youtube.com/embed/L97A3VrEkDg?autoplay=1" frameborder="0" allowfullscreen></iframe>
 		<center>
-			<h1 class="Armata">About us</h1>
-            <h4 class="Passion">Thank you for viewing our about page, it will assist you within the story. </h4>
-            <h1
+			<h1 class="PM">Welcome to the start, I see you've found the courage.</h1>
+            <h1 class="PM">Good luck. <br> You'll need it.</h1>
+			<h1 class="Mystery">Now, you have two choices my friend:</h1>
+            <h1 style="color:#538b01;">
+  One would say, the 
+  <span style="color: #ff0000">red pill</span>
+  or choose the
+  <span style="color: #0000a0">blue pill</span> 
+  .
+</h1>
+<h1 class="Rye"> Now, this is your chance,</h1>
 		</center>
 		<!-- This is where the fonts go. Right here, no where else. -->
 		<link href="https://fonts.googleapis.com/css?family=Kumar+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Armata" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Coiny|Ewert|Fontdiner+Swanky|Frijole|Jura|Kaushan+Script|Leckerli+One|Lemonada|Mystery+Quest|Playfair+Display+SC|Rye|Schoolbell|Vast+Shadow" rel="stylesheet">
+
 	</body>
 </html>
 <!-- Going through the source code now? well, feel free to hit me up on twitter. -->
