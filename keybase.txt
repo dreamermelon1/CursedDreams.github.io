@@ -21,6 +21,11 @@ To do so, I am signing this object:
             "uid": "d14e8c53b301bf131fee1127d6599319",
             "username": "curseddreams"
         },
+        "revoke": {
+            "sig_ids": [
+                "16301d781060a32639f86c1c0f8c1499161e6b6d08f6b8a2a4b8f35440a316850f"
+            ]
+        },
         "service": {
             "hostname": "curseddreams.github.io",
             "protocol": "https:"
@@ -28,10 +33,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1485132051,
+    "ctime": 1485135084,
     "expire_in": 157680000,
-    "prev": "6af251e8c8f0a5ba7187d26fae0a0fcf30e10e406782ad8d8213baba2133ccc3",
-    "seqno": 8,
+    "prev": "76b1620bf7cf929f90a03ef58fda98e494090b886244e369a1d36afaaf633e3d",
+    "seqno": 9,
     "tag": "signature"
 }
 
@@ -41,30 +46,31 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.62
 Comment: https://keybase.io/crypto
 
-yMN1AnicbZJrUJRVGMeXixqLKGS0EGT45pLZhue8992hgkWBYQzcMSVUXN7Ledk3
-1t1lL6yAmKiMBYUaow4Mtz4AbdmoNSOKAwEyRSgQBV1GcpiUhpkYmyEuJn3ofSm/
-eb48c875P7/zf/5zBiJCNNqgf9Iv+7QZldVBt/rafJq3qywbyjHeKZZipnKsCK0U
-ZBeRx2stkkXMhAGIAxqSvEDzlCjRDCIQz0kUgUQRiRIj0kCiaZZmCYHHBRbHWSiR
-LKBIJBGSILIUTtEM4DADJsmOQuR2uWWHV8EyBANpXuJokicl1qhwOMJI0ZIkkDQP
-GApwJMNCVm20OT1qh2KO5zwoSXYqZ8rGumLvCfrHvgGUcEQacR7HjaIoAAIakRFB
-QAg0IAijJLIEyXACxQk4wHnE0ACKgggBQzISZSREwK/49q3gREgiVqAIngCQlyAB
-JYQgxBXflNGokFWhB7kd3CGkqAWf26ME5EbcIQ9WYcCUmxJZQGq46jRPUCUVyl6b
-j/9vOpfb6XUKTruisXm9Lo9JZXhLXWqTH/HW/3FWXnaISqpKRwlye2SnAzNBRSl4
-ZZUPSZaCBA4oaMDQYZfsRlZZVVAMzQJlqe+gEgVJcxJOQWU8VgIcxXMMZBkRpyUO
-AQ5IgkQAJTVEApphcU5kRRaHBM/xnFIIQRAITB2w2OHETKxikytUkB650MF5fW6E
-VfT3HQjVBGk1q1cFq79Now2LfPwHw5sjNRc91ydS5sr3z1mi+raGTftvHFveNdQz
-Up/1fMjOAlvOj/qsbn7x61fCLwRaYvUMskwMTr4Xn6uLS4koGFn65Gh6d9it/s1T
-2VUzmQ9ml7rq9+ZePGVYSL002JK7xmas3ZPxW3fd3PzGXujQhS/Wxe6e2P1707WD
-1TX2dv/H/unJifSv3mSW8xumopqHB7Z0PBX8pa5vm3tPHruUQGnjB9fn5EaP2h7a
-WrM6Wru7hmujZy3z/p/0B7wt4SeqwuKaArNp63K/r4o8WjJv2DZW3Ju2PXWSvH33
-I/M7/YHOxKR3fZpgXcRzW3fCc0XLFaa8kuS1964cEc3frqNHEwLWP3vqEy+M79CM
-x3n+Dgmlb3ZmrF6sLXu6/7Uzd9tQ341MJjx/c7d/pv395lcDC/pG/acf1ATnEdNR
-WY1v1TbUbLJYz7Sa0459l5ZxetXYX/MxMPHko4Wrui8yl66az5pTO8w9L/1C7upy
-pjS+cWXHxhlf9IayouSfmYScIyMP11yTh+vbQg1DxXGgYdOzH4b9UFAfmDmsh52l
-dOnx2Y6o14ezp07viz+r00WcH8uvuBPnGn/G2xl8ed/nlf0D66sr2sXYc/fv9KRt
-+ezer7cX27te3n9i5mRCamno3vuV9pium00Hkx+cp0bEtaMxZZ1/WJYu2a9/446s
-qTle1xtjH9K9MK/NfjSneXF76L8YMrlj
-=V0vl
+yMO6AnicbZJ7TBRHHMdBKlREMVVsLYml66NpJDizszu7e8UqIVIfwdZXBItcd3Zn
+YEXvzts7PEVbUYxCRK0IKEbbU9FQNdYmIiY+KkjqI9b6oBW1rWJtpQXfNbYq7Syt
+/7n/THby/X3mM7/fHO8TFREb+TTjy2Dse8VlkacbI4MRWctzOooE4jUXCK4ioYB2
+L3SOSe2Au8AyBZcAoAgwlIiBiWwyrFBEic5kRE2TmkwxMWAYq1hFBhENVRRVyCQV
+yBJliBmmKosyVoAuJAvM8uRRv89veQIcqyAFYsJ0LBGJqRrn6EiTMWOGhAlQZKBL
+igpVpzDfazsVXI7oNk2xvHyP/7i79V6Qf+4NIBOppIlEFDXTNACCGtUoBMjAACGN
+mSqSFN2QdUMEIqEKBtA0TAgUSWGyhkxAur2D3TgTSlQ1ZEQQgIRBBBmlEIrcW9Y0
+TnaCNvV79LmUp42g3+YN8lN9ri0sThb8tNBbQJ3e2lYeF7cF14cCxJxlcmuAgY5E
+zJVUbEADMNWAkqZBDCkm2AQqw0TVRV0iKkOyJPE0xKoMmDCLs/mphZbRDXc69QKD
+lDwrkB8k/3XO5/cGvIZ3Ds/kBwI+2+X4BRb4nKL5lLj/x7mJ5TH5xHhFIfXbltcj
+uCBPGgHL4UNJlSGSgSolCzTks/zUbTkJWcEq4J9zDi105owJxCIgTDGYJmpMAzpA
+lMkqM3VN5eORgAaIqmJRkijCmg5NhHWm6wwjRJEpOBec5/EKLo1r6nkcyVvo0QNB
+PxUWNx7LeSkiMjYiumcP5yVHxPbq9/x9hyvj/5kq7WyvWbo8dWDLyYOSOcJK7Dtk
+aOfI7Q3BqHfth9csEJ49uuo6XZ4+PaOvd1JT+7rIfvsf3z0nrfwsLrE+sPH1YcMv
+1mWlnUltbw2t1UMXR5c+KU77LkpqW7dBzNqx5Xbt5g3Ds2vHH1r9art/+4i9Ty8s
+kT/9ZMKIAdcymmOH1tRN/nb1g0R7DNhS3TRwT2vHKzPLGxoTjpScdFWvP9dr7ccn
+3NH3h31TzFIMX+KPN6a/9tDIOv/s2ZXES7fH3Rq7DWPfvJv1g++E+565t2ZJdmfV
+lIKOhB11pYtW3p50qeVsOL60JiWnX1X61Z4tCQXh++EfMstzi0teHlZ0M6ktWDHo
+9JWf7pbNeKfi786yneVdYu7e5tYv7rdcfrr/Qn3mjTblRFRHTe02+3hZ6GxJeVzC
+14/aK7vYk21HLo863IMcrYzfunDgiupQU8am5imt6xdtXDr5t/zADfjWksacS/Fp
+H6E/NsX8EheftGzh23PfPDR42htbd1b/Gvfk/UXf979TYmtF4czcimyyLnX/n0Mm
+Nk2sOrDjcdfmpIO3mnvHzYp9cOyD0J6ppz/fNMS9L6ZzQvSB+RVn9GnTSx/l3unT
+e+zxezl1B4XZF1fV9xianh1Ki4ka5Rppj9nX/6/Dp9L7t9XUJF2eceL6z8m7usp/
+P39qbcO4XcGYhgEzDw06taD26uS8veOP3FyzInXZLbK7ftDur6KP/gsphuhK
+=33g0
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
