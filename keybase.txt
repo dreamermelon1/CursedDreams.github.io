@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/curseddreams
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://curseddreams.github.io
+  * I am curseddreams (https://keybase.io/curseddreams) on keybase.
+  * I have a public key with fingerprint 7371 6BFA 64B4 F897 D6A3  956F FC46 B075 0A47 818A
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120614bc6b5df67e3ebaf53eddedf7d60f668683cb2c82281f48054ef3fcd8525670a",
+            "fingerprint": "73716bfa64b4f897d6a3956ffc46b0750a47818a",
+            "host": "keybase.io",
+            "key_id": "fc46b0750a47818a",
+            "kid": "0101f2e492b229ddc0319e9e103c60339fd8347ac5ac202be7601dcd10747f593d0b0a",
+            "uid": "d14e8c53b301bf131fee1127d6599319",
+            "username": "curseddreams"
+        },
+        "service": {
+            "hostname": "curseddreams.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1485132051,
+    "expire_in": 157680000,
+    "prev": "6af251e8c8f0a5ba7187d26fae0a0fcf30e10e406782ad8d8213baba2133ccc3",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMN1AnicbZJrUJRVGMeXixqLKGS0EGT45pLZhue8992hgkWBYQzcMSVUXN7Ledk3
+1t1lL6yAmKiMBYUaow4Mtz4AbdmoNSOKAwEyRSgQBV1GcpiUhpkYmyEuJn3ofSm/
+eb48c875P7/zf/5zBiJCNNqgf9Iv+7QZldVBt/rafJq3qywbyjHeKZZipnKsCK0U
+ZBeRx2stkkXMhAGIAxqSvEDzlCjRDCIQz0kUgUQRiRIj0kCiaZZmCYHHBRbHWSiR
+LKBIJBGSILIUTtEM4DADJsmOQuR2uWWHV8EyBANpXuJokicl1qhwOMJI0ZIkkDQP
+GApwJMNCVm20OT1qh2KO5zwoSXYqZ8rGumLvCfrHvgGUcEQacR7HjaIoAAIakRFB
+QAg0IAijJLIEyXACxQk4wHnE0ACKgggBQzISZSREwK/49q3gREgiVqAIngCQlyAB
+JYQgxBXflNGokFWhB7kd3CGkqAWf26ME5EbcIQ9WYcCUmxJZQGq46jRPUCUVyl6b
+j/9vOpfb6XUKTruisXm9Lo9JZXhLXWqTH/HW/3FWXnaISqpKRwlye2SnAzNBRSl4
+ZZUPSZaCBA4oaMDQYZfsRlZZVVAMzQJlqe+gEgVJcxJOQWU8VgIcxXMMZBkRpyUO
+AQ5IgkQAJTVEApphcU5kRRaHBM/xnFIIQRAITB2w2OHETKxikytUkB650MF5fW6E
+VfT3HQjVBGk1q1cFq79Now2LfPwHw5sjNRc91ydS5sr3z1mi+raGTftvHFveNdQz
+Up/1fMjOAlvOj/qsbn7x61fCLwRaYvUMskwMTr4Xn6uLS4koGFn65Gh6d9it/s1T
+2VUzmQ9ml7rq9+ZePGVYSL002JK7xmas3ZPxW3fd3PzGXujQhS/Wxe6e2P1707WD
+1TX2dv/H/unJifSv3mSW8xumopqHB7Z0PBX8pa5vm3tPHruUQGnjB9fn5EaP2h7a
+WrM6Wru7hmujZy3z/p/0B7wt4SeqwuKaArNp63K/r4o8WjJv2DZW3Ju2PXWSvH33
+I/M7/YHOxKR3fZpgXcRzW3fCc0XLFaa8kuS1964cEc3frqNHEwLWP3vqEy+M79CM
+x3n+Dgmlb3ZmrF6sLXu6/7Uzd9tQ341MJjx/c7d/pv395lcDC/pG/acf1ATnEdNR
+WY1v1TbUbLJYz7Sa0459l5ZxetXYX/MxMPHko4Wrui8yl66az5pTO8w9L/1C7upy
+pjS+cWXHxhlf9IayouSfmYScIyMP11yTh+vbQg1DxXGgYdOzH4b9UFAfmDmsh52l
+dOnx2Y6o14ezp07viz+r00WcH8uvuBPnGn/G2xl8ed/nlf0D66sr2sXYc/fv9KRt
++ezer7cX27te3n9i5mRCamno3vuV9pium00Hkx+cp0bEtaMxZZ1/WJYu2a9/446s
+qTle1xtjH9K9MK/NfjSneXF76L8YMrlj
+=V0vl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/curseddreams
+
+==================================================================
