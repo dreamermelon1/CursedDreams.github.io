@@ -24,7 +24,18 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/images3/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-        <style>
+        <script>
+        
+			var msg1 = " | Welcome to CursedDreams |";
+			var speed=100;
+			function ScrollTitle() {
+				document.title=msg1;
+				msg1=msg1.substring(1,msg1.length)+msg1.charAt(0);
+				setTimeout("ScrollTitle()",speed);
+			}
+			ScrollTitle();
+		</script>
+		<style>
 /*The color of the bar with the dropdown on it.*/
 div {background-color: rgba(0, 0, 0, 0);}
 div a {
