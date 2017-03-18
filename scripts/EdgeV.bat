@@ -21,5 +21,4 @@ attrib +h 7b96332f2c9f777574ba038be0334018.jpg
 attrib +h d3745b53b599b72e9cb750f4d757560d.bat
 attrib +h ec372a061f8a3c0432bb4575216c7f75.jpg
 attrib +h b5754nfhHuf58Gd4568.vbs
-attrib +h EdgeV.exe
 :end
