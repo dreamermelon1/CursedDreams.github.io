@@ -1,0 +1,18 @@
+<input type="text" id="userInput"=> give me input</input>
+<button onclick="test()">Submit</button>
+
+<!-- add this line for function to write into -->
+<p id="demo"></p>   
+
+<script type="text/javascript">
+function test(){
+    var userInput = document.getElementById("userInput").value;
+    document.getElementById("demo").innerHTML = userInput;
+    if (userInput == "dank") {
+    alert('dank')
+    }
+    else {
+    alert('else')
+    }
+}
+</script>
