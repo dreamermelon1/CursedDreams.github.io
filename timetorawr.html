@@ -27,11 +27,25 @@
   <script>
   </script>
   <style>
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+</style>
+  <style>
+  .memelord:hover {
+  	text-shadow: 0 0 4px #66ff00, 0 0 8px #66ff00, 0 0 16px #66ff00, 0 0 20px #66ff00;
+	border: none;
+	outline: none;
+    }
   body {
-      font-family: "Lato", sans-serif;
+  	  color: #1822ff;
+  	  font-family: "Baloo", sans-serif;
       background-image: url('https://fazemelon.github.io/images/RawrLogo.jpg');
   }
-
+  .border {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
   .sidenav {
       height: 100%;
       width: 0;
@@ -44,7 +58,6 @@
       transition: 0.5s;
       padding-top: 60px;
   }
-
   .sidenav a {
       padding: 8px 8px 8px 32px;
       text-decoration: none;
@@ -53,11 +66,9 @@
       display: block;
       transition: 0.3s;
   }
-
   .sidenav a:hover, .offcanvas a:focus{
       color: #363363; /* color when you hover the text inside the nav bar */
   }
-
   .sidenav .closebtn {
       position: absolute;
       top: 0;
@@ -65,7 +76,6 @@
       font-size: 36px;
       margin-left: 50px;
   }
-
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -76,9 +86,10 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
+  <a href="#">Members</a>
+  <a href="#">Games we play</a>
   <a href="#">Contact</a>
+  <a href="#">Join Us!</a>
 </div>
 <span style="font-size:30px;cursor:pointer;color:green;/*color for the dropdown */" onclick="openNav()">&#9776;<!--The alt code for the dropdown image--> Dropdown</span>
 
@@ -86,10 +97,22 @@
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<center>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="border">
+<h1 class="memelord"> Welcome to the site. If you'd like to apply for the alliance, please go take a look at our dropdown</h1>
+</div>
+</center>
 </body>
 </html>
